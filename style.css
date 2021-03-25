@@ -15,7 +15,7 @@ img {
   width: 100%;
 }
 header
-.info {
+.header-info {
   font-family: fantasy, cursive;
 }
 
@@ -31,12 +31,12 @@ main {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.main-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.main-task__wrapper {
   display: flex;
 }
 ul {
@@ -128,16 +128,16 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-li > button.delete:hover {
+li > button.main-edit__delete:hover {
   color: #cf2323;
 }
-button.delete
+button.main-edit__delete
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete
+button.main-edit__delete
 img:hover {
   transform: rotateZ(0);
 }
@@ -156,13 +156,13 @@ input[type=text] {
   display: none;
 }
 
-.edit-mode
+.main-edit
 input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode
+.main-edit
 label {
   display: none;
 }
