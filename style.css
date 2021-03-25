@@ -13,12 +13,12 @@ body {
 .header img {
   width: 100%;
 }
-.aaa .info {
+.header .info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { 
+.header { 
   text-align: center;
 }
 }
